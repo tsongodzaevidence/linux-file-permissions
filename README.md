@@ -31,12 +31,12 @@ permissions set for a specified directory in the system
 2. I then listed the contents and the permissions of the project directory
 The permissions are as follows.
 
-IMAGE
+![](1.png) 
 
 3. I then checked if there were any hidden files or folders in the directory.
 The results were as follows
 
-IIMAGE
+![](2.png) 
 
 The first line of the screenshot displays the command I entered, and the other lines
 display the output. The code lists all contents of the projects directory. I used the ls
@@ -75,19 +75,19 @@ organisation so i have to change the permissions.
 1. I changed the permissions of the files project_k.txt so that the owner type of other
 doesn't have write permissions.
 
-IMAGE
+![](3.png) 
 
 2. The file project_m.txt is a restricted file and should not be readable or writable by others
 and only the user should have these permissions on this file.
 This is how i did it
 
-IMAGE
+![](4.png) 
 
 ## C. Change file permissions on a hidden file
 2. I changed the permissions of the hidden file .project_x.txt so that both the user and the group
 ca read, but not write to , the file
 
-IMAGE
+![](5.png) 
 
 ## D. Change directory permissions
 
@@ -96,7 +96,7 @@ this means that only researcher2 should have execute privileges
 1. I checked the permission of the draft directory
 2. Remove the execute permission for the group from the drafts directory
 
-   IMAGE
+ ![](6.png) 
 
 ## Summary
 
